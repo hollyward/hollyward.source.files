@@ -1,0 +1,10 @@
+   93  alias |grep git
+   94  alias |grep git |less
+   95  vi source/_posts/Test.md
+   96  git add -A
+   97  git commit -m "changing Test post"
+   98  git push origin master
+   99  hexo generate
+  100  hexo deploy
+  101  history |tail
+  102  history |tail|hexo.deploying
